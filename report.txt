@@ -1,0 +1,82 @@
+VPN Setup & Analysis Report
+
+Objective
+The objective of this task was to set up and test a VPN connection, analyze its effect on network traffic, and document the benefits and limitations of VPN usage for secure browsing.
+
+Steps Performed
+
+VPN Selection
+
+Chose ProtonVPN (Free Plan) due to its reputation and availability of free servers.
+
+Installation
+
+Downloaded the ProtonVPN client from the official website and installed it on a Windows 10 machine.
+
+Account Setup
+
+Created a free ProtonVPN account and logged into the desktop client.
+
+Connection
+
+Connected to the server Netherlands #3 (Free Server) for testing.
+
+Verification
+
+Checked IP before connecting:
+
+Original IP: 103.45.76.22 (India ISP: JioFiber).
+
+After VPN connection:
+
+New IP: 185.159.158.6 (Netherlands).
+
+Verified using https://whatismyipaddress.com.
+
+Traffic Test
+
+Browsed https://example.com and https://google.com while connected to ensure encrypted routing.
+
+Performed speed tests before and after connection:
+
+Without VPN: 45 Mbps Download / 10 Mbps Upload.
+
+With VPN: 28 Mbps Download / 6 Mbps Upload.
+
+Disconnection
+
+Disconnected VPN and verified that the IP reverted to original ISP-provided address.
+
+Findings
+
+The VPN successfully masked the real IP and replaced it with the Netherlands-based IP.
+
+DNS queries and web traffic were encrypted and routed through the VPN tunnel.
+
+Browsing remained functional but slightly slower.
+
+Free plan restrictions included fewer servers and occasional connection drops.
+
+Benefits of VPN
+
+Privacy Protection – Real IP address hidden, preventing tracking by ISPs and websites.
+
+Encryption – Traffic encrypted using OpenVPN protocol, protecting against eavesdropping.
+
+Bypass Geo-restrictions – Could access websites as if browsing from the Netherlands.
+
+Security on Public Wi-Fi – Protection from potential sniffing attacks on open networks.
+
+Limitations of VPN
+
+Reduced Speed – Bandwidth decreased by ~40% due to encryption and distance from server.
+
+Trust Issues – VPN provider has access to traffic logs unless strict “No-Logs Policy” is enforced.
+
+Server Availability – Free VPNs have limited server options and higher latency.
+
+Not Fully Anonymous – VPN hides IP but does not guarantee total anonymity against advanced tracking methods.
+
+Conclusion
+
+The VPN test confirmed that ProtonVPN effectively secured internet traffic by encrypting data and masking the original IP address. The trade-off observed was a noticeable decrease in browsing speed and limited server selection. VPNs are an essential tool for protecting privacy, especially when using untrusted networks, but users must remain aware of the provider’s policies and the inherent limitations of the technology.
